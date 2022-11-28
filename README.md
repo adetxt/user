@@ -61,5 +61,16 @@ This app is using gRPC and Edison. Edison is my personal Go package that will si
 - **usecase** -- usecase implementation
 - **utils** -- helpers
 
+## Credentials
+```
+Admin
+email: admin@mail.com
+password: password
+
+User
+email: user@mail.com
+password: password
+```
+
 ## API DOC
 [https://documenter.getpostman.com/view/18749474/2s8YsxuWPK](https://documenter.getpostman.com/view/18749474/2s8YsxuWPK)
