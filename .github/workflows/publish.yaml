@@ -14,5 +14,4 @@ jobs:
       - name: Build the adetxt-user Docker image
         run: |
               docker build . --tag ghcr.io/adetxt/user:latest
-              docker run ghcr.io/adetxt/user:latest
               docker push ghcr.io/adetxt/user:latest
