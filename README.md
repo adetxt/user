@@ -2,6 +2,13 @@
 
 This app is using gRPC and Edison. Edison is my personal Go package that will simplify build gRPC server. Edison has ability to automate init gRPC gateway, so you can easily call the RPC method with gRPC and REST. All is handled by Edison.
 
+## Getting started
+- Download protoc-gen-go-edison `go install github.com/adetxt/protoc-gen-go-edison/cmd/protoc-gen-go-edison`
+- Download buf `bufbuild/buf/buf` [toturial](https://docs.buf.build/installation)
+- Generate code from proto `buf generate proto`
+- `go mod tidy`
+- `go run main.go`
+
 ## Structure
 
 ```
